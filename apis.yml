@@ -1,8 +1,26 @@
 aid: salient
 name: Salient
-description: 'Salient is a company surfaced as a portfolio company of matrix-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Salient (Skwid Inc.) is an AI-native loan servicing and collections platform for consumer
+  lenders — banks, credit unions, captive lenders, and specialty finance companies. It builds compliance-first
+  AI voice and chat agents that automate servicing, collections, audit, insurance claims, chargebacks, and
+  chargeoff workflows with native FDCPA, TCPA, and CFPB compliance. Its named agent products include Taylor
+  (omnichannel servicing and collections), Marshall (automated audit), Flyn (total-loss insurance claims),
+  Alex (chargebacks and disputes), and Melanie (chargeoffs). Founded in 2023 and backed by Andreessen Horowitz,
+  Matrix Partners, and Y Combinator, Salient exposes a partner integration and onboarding API behind an
+  authenticated developer portal. This profile was enriched from public web surfaces; the API reference is
+  gated behind login so no public machine-readable specification was harvested.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://trysalient.com/icon.svg
 url: https://raw.githubusercontent.com/api-evangelist/salient/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,23 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- Lending
+- Loan Servicing
+- Collections
+- Financial Services
+- Fintech
+- AI Agents
+- Compliance
+- Voice
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +54,19 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/salient-domain-security.yml
 - type: Website
   url: https://trysalient.com
+- type: DeveloperPortal
+  url: https://onboarding.trysalient.com/setup-documentation/quickstart
+- type: Documentation
+  url: https://onboarding.trysalient.com/setup-documentation/quickstart
+- type: Login
+  url: https://app.trysalient.com/ai-agent/campaigns
+- type: Support
+  url: https://trysalient.com/support
+- type: PrivacyPolicy
+  url: https://trysalient.com/privacy
+- type: TermsOfService
+  url: https://trysalient.com/terms

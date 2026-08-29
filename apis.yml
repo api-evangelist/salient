@@ -9,6 +9,17 @@ description: 'Salient (Skwid Inc.) is an AI-native loan servicing and collection
   Matrix Partners, and Y Combinator, Salient exposes a partner integration and onboarding API behind an
   authenticated developer portal. This profile was enriched from public web surfaces; the API reference is
   gated behind login so no public machine-readable specification was harvested.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown

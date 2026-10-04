@@ -48,11 +48,12 @@ tags:
 - Lending
 - Loan Servicing
 - Collection
-- Financial-Services
+- Financial Services
 - Fintech
 - AI Agents
 - Compliance
 - Voice
+- Debt Collection
 tags_raw:
 - Company
 - Ai
@@ -64,6 +65,8 @@ tags_raw:
 - AI Agents
 - Compliance
 - Voice
+- Financial-Services
+- Debt Collection
 x-enrichment:
   date: '2026-07-21'
   status: minimal
